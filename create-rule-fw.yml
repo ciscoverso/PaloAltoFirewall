@@ -11,7 +11,7 @@
       description: 'Allow Traffic for Segmen .108'
       source_zone: ['L3-Trust']
       destination_zone: ['L3-Untrust']
-      source_ip: ['any']
+      source_ip: ['10.1.108.0/24']
       source_user: ['any']
       destination_ip: ['any']
       category: ['any']
